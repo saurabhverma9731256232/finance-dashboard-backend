@@ -2,8 +2,8 @@
 
 ##  Overview
 
-This project is a backend system for managing financial transactions with role-based access control and dashboard analytics.
-It allows users to track income and expenses and view summarized financial insights.
+This project is a backend system for managing financial transactions with **role-based access control** and **dashboard analytics**.
+It enables users to track income and expenses, while providing powerful insights through summarized financial data.
 
 ---
 
@@ -26,19 +26,26 @@ It allows users to track income and expenses and view summarized financial insig
 
 ##  Features
 
-* User Authentication (Register/Login with JWT)
-* Role-based Authorization
-* Transaction CRUD APIs
-* Filtering (type, category, date)
-* Pagination support
-* Dashboard Analytics:
+*  User Authentication (Register/Login with JWT)
+*  Role-based Authorization
+*  Transaction CRUD APIs
+*  Filtering (type, category, date)
+*  Pagination support
 
-  * Total Income
-  * Total Expenses
-  * Net Balance
-  * Category-wise totals
-  * Monthly trends
-  * Recent transactions
+###  Dashboard Analytics
+
+* Total Income
+* Total Expenses
+* Net Balance
+* Category-wise totals
+* Monthly trends
+* Recent transactions
+
+---
+
+##  Live API
+
+https://finance-dashboard-backend-1cp6.onrender.com
 
 ---
 
@@ -101,10 +108,11 @@ JWT_SECRET=your_secret_key
 * Swagger API Documentation
 * Unit Testing
 * Rate Limiting
-* Deployment (Render / Railway)
+* Frontend Integration
+* Performance Optimization
 
 ---
 
 ##  Author
 
-Saurabh Verma
+**Saurabh Verma**
